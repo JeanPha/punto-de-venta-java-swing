@@ -42,8 +42,8 @@ public class InterGestionarUsuario extends javax.swing.JInternalFrame {
         this.setTitle("Gestionar Usuarios");
         //cargar tabla
         this.CargarTablaUsuarios();
-        
-        // Llama a setNumericOnly desde NumericTextFieldUtil
+
+        // Llamar a setNumericOnly desde NumericTextFieldUtil
         Ctrl_funciones.setNumericOnly(txt_telefono);
 
         // Agregar el componente listener para redimensionar la imagen
